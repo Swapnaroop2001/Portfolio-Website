@@ -1,0 +1,101 @@
+.c {
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #59b256;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.c-title {
+    width: 100%;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.c-info-item {
+    display: grid;
+    align-items: center;
+}
+
+.c-icon {
+    font-size: 40px;
+    margin-right: 20px
+}
+
+.c-jodi {
+    display: flex;
+    margin: 20px 20px
+}
+
+.c-a {
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
+
+form{
+    
+    margin-top: 20px;
+}
+
+input{
+    width:50%;
+    height:50px;
+    border:none;
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+}
+
+button{
+    border: none;
+    padding:15px;
+    background-color: #59b256;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.c-thank{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    margin: 10px 10px 10px 0px;
+}
+
+.c-txtarea{
+    margin-top: 20px;
+}
+
+.c-submitBtn{
+    margin-top: 10px;
+}
