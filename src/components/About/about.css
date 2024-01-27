@@ -36,3 +36,36 @@
     object-fit: cover;
     border-radius: 30px;
 }
+
+@media screen and (max-width:480px) {
+    .a{
+      flex-direction: column-reverse;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .a-left {
+      width: 100%;
+    }
+
+    .a-card {
+      height: 30vh;
+    }
+
+    .a-card.bg, .a-award {
+      display: none;
+    }
+
+    .a-right{
+      width: 100%;
+      padding: 0px;
+    }
+
+    .a-desc,.a-sub{
+      margin: 5px;
+    }
+
+    .a-img{
+      height: auto;
+  }
+}

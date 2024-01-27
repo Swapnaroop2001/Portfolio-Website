@@ -9,6 +9,7 @@ export default function Intro() {
 
           <h2 className="i-intro">Hello, my name is</h2>
           <h1 className="i-name">Swapnaroop</h1>
+          <h2 className="i-Iam">I am a</h2>
 
           <div className="i-title">
             <div className="i-title-wrapper">
@@ -26,8 +27,7 @@ export default function Intro() {
       </div>
 
       <div className="i-right">
-      <div className="i-bg">
-      </div>
+      <div className="i-bg"></div>
       <img src={human} alt="" className="i-image" />
       </div>
     </div>

@@ -36,14 +36,9 @@ export default function Contact() {
         <div className="c-left">
           <h1 className="c-title">Yeah, let's discuss your project!</h1>
           <div className="c-info-item">
-            <div className='c-jodi'>
-              <FontAwesomeIcon className='c-icon' icon={faPhone} />
-              <a className='c-a' href='+1 5513288505'>+1 551-551-551</a>
-            </div>
-
-            <div className='c-jodi'>
-              <FontAwesomeIcon className='c-icon' icon={faEnvelope} />
-              <a className='c-a' target="_blank" rel="noopener noreferrer" href='mailto:swapnaroop2001@gmail.com'>swapnaroop2001@gmail.com</a>
+          <div className='c-jodi'>
+            <FontAwesomeIcon  className='c-icon' icon={faGithub} />
+              <a className='c-a' target="_blank" rel="noopener noreferrer" href='https://github.com/Swapnaroop2001'>Github</a>
             </div>
 
             <div className='c-jodi'>
@@ -52,9 +47,14 @@ export default function Contact() {
             </div>
 
             <div className='c-jodi'>
-            <FontAwesomeIcon  className='c-icon' icon={faGithub} />
-              <a className='c-a' target="_blank" rel="noopener noreferrer" href='https://github.com/Swapnaroop2001'>Github</a>
+              <FontAwesomeIcon className='c-icon' icon={faPhone} />
+              <a className='c-a' href='+1 5513288505'>+1 551-551-551</a>
             </div>
+
+            <div className='c-jodi'>
+              <FontAwesomeIcon className='c-icon' icon={faEnvelope} />
+              <a className='c-a' target="_blank" rel="noopener noreferrer" href='mailto:swapnaroop2001@gmail.com'>swapnaroop2001@gmail.com</a>
+            </div>            
           </div>
         </div>
 

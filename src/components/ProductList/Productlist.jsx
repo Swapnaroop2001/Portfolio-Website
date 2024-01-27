@@ -19,8 +19,6 @@ export default function Productlist() {
         <Product/>
         <Product/>
         <Product/>
-        <Product/>
-        <Product/>
     </div>
     </div>
   )

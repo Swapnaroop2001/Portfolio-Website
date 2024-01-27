@@ -14,7 +14,7 @@ export default function About() {
         <div className="a-right">
             <h1 className='a-title'>About</h1>
             <p className='a-sub'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias suscipit veniam ut id, hic explicabo odio.</p>
-            <p className='a-desc'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste rerum dolor, consectetur laudantium harum quis ut culpa ea placeat debitis porro ipsum commodi alias delectus blanditiis natus perspiciatis, autem sint. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam nesciunt alias vitae dignissimos numquam ex fugiat architecto quibusdam quas vero aspernatur voluptatibus aliquam accusantium totam possimus, officia nobis, fuga atque?</p>
+            <p className='a-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloremque sint officia placeat vero modi non obcaecati dignissimos iusto aut. Autem molestiae asperiores velit itaque.</p>
         </div>
     </div>
   )
