@@ -5,21 +5,67 @@ import Product from '../Product/Product'
 export default function Productlist() {
   return (
     <div className='pl'>
-        <div className="pl-text">
-            <h1 className="pl-title">Hello this is list</h1>
-            <p className="pl-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis optio doloremque dicta nihil sequi animi veritatis laudantium culpa ullam, porro autem adipisci atque voluptate molestias. Repellendus laboriosam perferendis magnam?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iure architecto fugit? Voluptates deleniti quo doloremque? Quaerat quibusdam iste recusandae repudiandae quae officia dolorum, excepturi voluptas quod! Ipsam, quam unde.
-            </p>
+      <div className="pl-text">
+
+
+        <h1 className="pl-title">Project Gallery</h1>
+
+
+        <p className="pl-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis optio doloremque dicta nihil sequi animi veritatis laudantium culpa ullam, porro autem adipisci atque voluptate molestias. Repellendus laboriosam perferendis magnam?
+          doloremque? Quaerat quibusdam iste recusandae repudiandae quae officia dolorum, excepturi voluptas quod! Ipsam, quam unde.
+        </p>
+      </div>
+
+
+
+
+      <div className="pl-list">
+
+        <div className="pl-section1">
+          <div className="pl-s1-left-side">
+            <Product />
+          </div>
+          <div className="pl-s1-right-side">
+          <h2>The Daily Bugle</h2>
+            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+          </div>
         </div>
 
 
-    <div className="pl-list">
-        <Product/>
-        <Product/>
-        <Product/>
-        <Product/>
-    </div>
+        <div className="pl-section2">
+          <div className="pl-s1-right-side">
+          <h2 className='pl-h2'>The CozyCrest</h2>
+            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+          </div>
+          <div className="pl-s1-left-side">
+            <Product />
+          </div>
+        </div>
+
+
+        <div className="pl-section1">
+          <div className="pl-s1-left-side">
+            <Product />
+          </div>
+          <div className="pl-s1-right-side">
+            <h2>The Portfolio</h2>
+            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+          </div>
+        </div>
+
+
+        <div className="pl-section2">
+          <div className="pl-s1-right-side">
+          <h2 className='pl-h2'>Arrow's Apple Quest</h2>
+            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+          </div>
+          <div className="pl-s1-left-side">
+            <Product />
+          </div>
+        </div>
+
+      </div>
     </div>
   )
 }

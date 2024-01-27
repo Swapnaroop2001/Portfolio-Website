@@ -1,6 +1,6 @@
 .p {
-    width: 30%;
-    height: 40vh;
+    width: 90%;
+    height: 32vh;
     margin: 20px 10px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px 10px 0px 0px;
@@ -32,6 +32,8 @@
 .p:hover .p-img {
     transform: translateY(-50%);
 }
+
+
 
 @media screen and (max-width: 480px) {
     .p {
