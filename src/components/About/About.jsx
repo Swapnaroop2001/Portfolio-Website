@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import about from '../../images/about.png'
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
         <div className="a-left">
             <div className="a-card bg"></div>
             <div className="a-card">
-                <img src= "https://images.pexels.com/photos/19891046/pexels-photo-19891046/free-photo-of-a-red-tram-on-a-street-in-lisboa-carrying-people-inside-on-a-sunny-day-in-spring.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="a-img"/>
+                <img src= "https://images.pexels.com/photos/19860989/pexels-photo-19860989/free-photo-of-lanterns-in-hong-kong.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="a-img"/>
             </div>
         </div>
 
