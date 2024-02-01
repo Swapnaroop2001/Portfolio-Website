@@ -31,9 +31,6 @@ export default function Intro() {
       </div>
       <div className="i-bgg">
       </div>
-      <div className="i-frame">
-
-      </div>
       <img src={human} alt="" className="i-image" />
       </div>
     </div>

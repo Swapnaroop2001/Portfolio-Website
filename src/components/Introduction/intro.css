@@ -30,7 +30,7 @@
     margin: 5px 0px;
 }
 
-.i-Iam{
+.i-Iam {
     font-size: 30px;
     font-weight: 800;
     margin: 5px 0px;
@@ -52,7 +52,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color:  rgb(104, 14, 222);
+    color: rgb(104, 14, 222);
     display: flex;
     align-items: center;
 }
@@ -62,7 +62,7 @@
     animation: move 10s ease-in-out infinite alternate;
 }
 
-.i-desc{
+.i-desc {
     font-size: 13px;
     font-weight: 300;
 }
@@ -83,16 +83,15 @@
 }
 
 .i-image {
-    width: 70%;
+    width: 62%;
     height: 70%;
     object-fit: cover;
     position: absolute;
-    margin-left:128px;
-    margin-top: 30px;
+    margin-left: 155px;
+    margin-top: 37px;
 }
 
 .i-bg {
-    clip-path: polygon(50% 0%, 80% 10%, 100% 16%, 100% 90%, 72% 91%, 48% 91%, 21% 91%, 0 91%, 0 17%, 20% 10%);
     background-color: rgb(104, 14, 222);
     width: 69%;
     height: 55%;
@@ -100,23 +99,21 @@
     align-items: center;
     margin-top: 180px;
     margin-left: 130px;
-    box-shadow:0 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow:0 2px 10px rgb(0, 0, 0);
 }
+
 .i-bgg {
-    clip-path: polygon(50% 0%, 80% 10%, 100% 16%, 100% 90%, 72% 91%, 48% 91%, 21% 91%, 0 91%, 0 17%, 20% 10%);
     background-color: rgb(0, 0, 0);
-    width: 69%;
-    height: 55%;
+    width: 62%;
+    height: 48%;
     position: absolute;
     align-items: center;
     margin-top: 210px;
-    margin-left: 150px;
+    margin-left: 155px;
+    box-shadow:0 2px 10px rgb(0, 0, 0);
+
 }
 
-.i-frame{
-    clip-path: polygon(0 0, 0% 100%, 9% 91%, 8% 8%, 91% 8%, 92% 91%, 8% 91%, 0 100%, 100% 100%, 100% 0%);
-    background-color: black;
-}
 
 @media screen and (max-width : 480px) {
     .i {
@@ -124,7 +121,7 @@
         height: auto;
     }
 
-    .i-left{
+    .i-left {
         flex: 1;
         width: 100%;
         text-align: center;
@@ -137,26 +134,28 @@
         align-items: center;
     }
 
-    .i-intro{
+    .i-intro {
         font-size: 25px;
         margin: 0px 0px;
     }
-    .i-name{
+
+    .i-name {
         font-size: 45px;
     }
-    .i-Iam{
+
+    .i-Iam {
         font-size: 34px;
         margin: 0px 0px;
     }
 
-    .i-title-item{
+    .i-title-item {
         justify-content: center;
     }
 
-    .i-description{
+    .i-description {
         display: none;
     }
-    
+
 
 
     /* Right */
@@ -168,7 +167,7 @@
     }
 
     .i-image {
-       position: relative;
+        position: relative;
         width: 50%;
         z-index: 1;
     }
@@ -181,8 +180,8 @@
         top: 0;
         right: 0;
         position: absolute;
-        z-index:0;
+        z-index: 0;
     }
 
-    
+
 }

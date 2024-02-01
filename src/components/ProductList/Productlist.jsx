@@ -15,8 +15,7 @@ export default function Productlist() {
 
 
         <p className="pl-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis optio doloremque dicta nihil sequi animi veritatis laudantium culpa ullam, porro autem adipisci atque voluptate molestias. Repellendus laboriosam perferendis magnam?
-          doloremque? Quaerat quibusdam iste recusandae repudiandae quae officia dolorum, excepturi voluptas quod! Ipsam, quam unde.
+        Embark on a journey through my project gallery as we explore and discover the diverse range of creations that showcase my skills and passion—let's walk through projects together.
         </p>
       </div>
 

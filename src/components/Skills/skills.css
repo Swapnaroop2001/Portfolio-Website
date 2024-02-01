@@ -1,3 +1,19 @@
 .skills{
-    height: 100vh;
+    height:100%;
+    display: flex;
+    margin:1% 10%;
+}
+
+.s-right{
+    text-align: center;
+    flex:1;
+}
+
+.s-list2{
+    display: flex;
+    justify-content: center;
+}
+
+.s-item{
+    margin: 5%;
 }
