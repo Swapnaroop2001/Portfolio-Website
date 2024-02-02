@@ -75,7 +75,7 @@ textarea{
     width: 100%;
 }
 
-button{
+.c-submitBtn{
     border: none;
     padding:15px;
     background-color:  rgb(104, 14, 222);;

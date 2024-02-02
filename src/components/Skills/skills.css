@@ -11,9 +11,19 @@
 
 .s-list2{
     display: flex;
-    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-evenly;
 }
 
 .s-item{
-    margin: 5%;
+    color:  rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 50px;
+    border-right: 1px solid rgb(219, 219, 219);
+}
+.s-items{
+    color:  rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 50px;
 }

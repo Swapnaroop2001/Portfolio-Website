@@ -29,9 +29,10 @@ export default function Intro() {
       <div className="i-right">
       <div className="i-bg">
       </div>
-      <div className="i-bgg">
-      </div>
+      <div className="i-bgg"></div>
+      <div className="i-bg-img">
       <img src={human} alt="" className="i-image" />
+      </div>
       </div>
     </div>
   )
