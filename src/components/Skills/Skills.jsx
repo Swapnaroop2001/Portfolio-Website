@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Skills() {
     return (
+        <section id="skills">
         <div className='skills'>
 
             <div className="s-right">
@@ -53,5 +54,6 @@ export default function Skills() {
                 </div>
             </div>
         </div>
+    </section>
     )
 }

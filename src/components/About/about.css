@@ -20,9 +20,7 @@
     background-color:  rgb(104, 14, 222);;
 }
 .a-right{
-    flex: 1;
-    padding:02% 7%;
-    
+    flex: 1; 
 }
 .a-card{
     width:60%;
@@ -43,11 +41,12 @@
     .a{
       flex-direction: column-reverse;
       text-align: center;
-      margin-top: 50px;
+      margin-top: 150px;
     }
 
     .a-left {
       width: 100%;
+      padding:0px;
     }
 
     .a-card {
@@ -58,10 +57,7 @@
       display: none;
     }
 
-    .a-right{
-      width: 100%;
-      padding: 0px;
-    }
+   
 
     .a-desc,.a-sub{
       margin: 5px;

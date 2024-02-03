@@ -30,6 +30,7 @@ export default function Contact() {
   }
 
   return (
+    <section id="Contact">
     <div className='c'>
       <div className="c-bg"></div>
       <div className="c-wrapper">
@@ -82,5 +83,6 @@ export default function Contact() {
 
       </div>
     </div>
+    </section>
   );
 }

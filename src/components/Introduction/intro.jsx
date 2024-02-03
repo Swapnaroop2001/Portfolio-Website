@@ -20,19 +20,17 @@ export default function Intro() {
             </div>
           </div>
           <div className="i-description">
-            <p className='i-desc'>Explore my journey through cutting-edge coursework, impactful internships, and innovative projects. Discover how my skills in full-stack development, proficiency in web technologies, and commitment to excellence make me a valuable candidate for your team.</p>
+            <p className='i-desc'>Explore my journey through ...and innovative projects.</p>
           </div>
 
         </div>
       </div>
 
       <div className="i-right">
-      <div className="i-bg">
-      </div>
-      <div className="i-bgg"></div>
-      <div className="i-bg-img">
-      <img src={human} alt="" className="i-image" />
-      </div>
+        <div className="i-right-wrapper">
+          <div className="i-bg"></div>
+          <img src={human} alt="" className="i-image" />
+        </div>
       </div>
     </div>
   )

@@ -7,6 +7,7 @@ import CozyCrest from '..//..//images/CozyCrest.png'
 
 export default function Productlist() {
   return (
+    <section id="Projects">
     <div className='pl'>
       <div className="pl-text">
 
@@ -69,5 +70,6 @@ export default function Productlist() {
 
       </div>
     </div>
+    </section>
   )
 }
