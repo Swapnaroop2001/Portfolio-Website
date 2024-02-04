@@ -19,19 +19,60 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .i-right {
     flex: 1;
+    display: flex;
     position: relative;
 }
 
+.myImage {
+    height: inherit;
+    width: inherit;
+}
+
+.i-myImgBg {
+    overflow: hidden;
+    position: relative;
+    top: 130px;
+    left: 150px;
+    height: 380px;
+    width: 290px;
+    border: 5px solid rgb(0, 0, 0);
+    animation: changeRadius 6s infinite;
+}
+
+@keyframes changeRadius {
+    0% {
+        border-end-start-radius: 270px 200px;
+        border-end-end-radius: 200px 100px;
+        border-start-end-radius: 160px 300px;
+        border-start-start-radius: 300px 200px;
+
+    }
+
+    50% {
+        border-start-start-radius: 120px 200px;
+        border-start-end-radius: 300px 100px;
+        border-end-start-radius: 90px 200px;
+        border-end-end-radius: 300px 200px;
+    }
+
+    100% {
+        border-end-start-radius: 270px 200px;
+        border-end-end-radius: 200px 100px;
+        border-start-end-radius: 160px 300px;
+        border-start-start-radius: 300px 200px;
+
+    }
+}
 
 .i-left-wrapper {
     position: relative;
-    top:140px;
-    left:120px;
+    top: 140px;
+    left: 120px;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -76,6 +117,7 @@
 }
 
 .i-title-wrapper {
+    margin: 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -114,31 +156,43 @@
 
 }
 
-.i-bg {
+/* .i-bg {
     background-color: rgb(104, 14, 222);
     width: 290px;
     height: 380px;
     box-shadow: 0 2px 10px rgb(0, 0, 0);
     position: absolute;
-    left: 165px;
-    top: 170px;
-}
+    top: 45%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+} */
 
 
 @media screen and (max-width : 768px) {
+
     /* Left */
-    .i-left{
+    .i-left {
         align-items: center;
     }
+
     .i {
         height: 100vh;
         width: 100%;
     }
+
+    .i-myImgBg {
+        top: 120px;
+        left: 35px;
+        height: 310px;
+        width: 235px;
+    }
+
     .i-left-wrapper {
-        top:150px;
+        top: 150px;
         padding: 20px 20px 20px 85px;
         position: static;
     }
+
     .i-intro {
         font-size: 30px;
         margin: 0px 0px;
@@ -155,34 +209,37 @@
 
 
     /* Right */
+
     .i-image {
         position: relative;
-        height: 100%;
-        width: 100%;
+        height: 280px;
+        width: 220px;
         z-index: 1;
         top: 0;
-        left: 0;        
+        left: 0;
     }
 
-    .i-bg {
+    /* .i-bg {
         background-color: rgb(104, 14, 222);
         height: 280px;
         width: 220px;
-        top: 170px;
-        left:30px;
+        top: 52%;
+        left: 55%;
+        transform: translate(-50%, -50%);
         position: absolute;
         z-index: 0;
-    }
-    .i-bgg {
+    } */
+
+    /* .i-bgg {
         position: absolute;
         height: 280px;
         width: 220px;
         top: 160px;
-        left:20px;
+        left: 20px;
         z-index: 1;
         position: absolute;
         background-color: rgb(243, 243, 243);
-    }
+    } */
 
 }
 
@@ -193,6 +250,13 @@
         position: relative;
     }
 
+    .i-myImgBg {
+        top: 120px;
+        left: 35px;
+        height: 310px;
+        width: 235px;
+    }
+
     .i-left {
         flex: 1;
         width: 100%;
@@ -201,7 +265,7 @@
     }
 
     .i-left-wrapper {
-        padding: 20px;
+        padding: 10px;
         height: auto;
         text-align: center;
         align-items: center;
@@ -234,12 +298,11 @@
 
     /* Right */
 
-    .i-right {
-        flex: 1;
-        width: 100%;
-        display: flex;
-        position: relative;
-        justify-content: center;
+    .i-myImgBg {
+        top: 0px;
+        left: 145px;
+        height: 270px;
+        width: 200px;
     }
 
     .i-image {
@@ -248,28 +311,6 @@
         width: 180px;
         z-index: 1;
         top: 0;
-        left: 0;        
-    }
-
-    .i-bg {
-        background-color:blueviolet;
-        height: 242px;
-        width: 180px;
-        position: absolute;
-        top:10px;
-        left:160px;
-        z-index: 0;
-    }
-    .i-bgg {
-        position: absolute;
-        top:0px;
-        left:150px;
-        height: 240px;
-        width: 180px;
-        z-index: 1;
-        position: absolute;
-        background-color: rgb(243, 243, 243);
+        left: 0;
     }
 }
-
-

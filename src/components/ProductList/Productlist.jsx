@@ -6,6 +6,11 @@ import AppleArrow from '..//..//images/AppleArrow.png'
 import CozyCrest from '..//..//images/CozyCrest.png'
 
 export default function Productlist() {
+  const TheDB="https://github.com/Swapnaroop2001/TheDailyBugle";
+  const AppleA="https://github.com/Swapnaroop2001/AppleArrow";
+  const portF="https://github.com/Swapnaroop2001/Portfolio-Website";
+  const CozyC= "https://github.com/Swapnaroop2001/BookingApp";
+
   return (
     <section id="Projects">
     <div className='pl'>
@@ -27,7 +32,7 @@ export default function Productlist() {
 
         <div className="pl-section1">
           <div className="pl-s1-left-side">
-            <Product image={TheDailyBugle} />
+            <Product image={TheDailyBugle} GithubRepo={TheDB}/>
           </div>
           <div className="pl-s1-right-side">
           <h2>The Daily Bugle</h2>
@@ -42,14 +47,14 @@ export default function Productlist() {
             <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
           </div>
           <div className="pl-s1-left-side">
-            <Product image={CozyCrest}  />
+            <Product image={CozyCrest} GithubRepo={CozyC}  />
           </div>
         </div>
 
 
         <div className="pl-section1">
           <div className="pl-s1-left-side">
-            <Product />
+            <Product GithubRepo={portF}/>
           </div>
           <div className="pl-s1-right-side">
             <h2>The Portfolio</h2>
@@ -64,7 +69,7 @@ export default function Productlist() {
             <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
           </div>
           <div className="pl-s1-left-side">
-            <Product image={AppleArrow} />
+            <Product image={AppleArrow} GithubRepo={AppleA}/>
           </div>
         </div>
 

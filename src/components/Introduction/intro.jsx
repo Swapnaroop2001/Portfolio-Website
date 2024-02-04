@@ -8,11 +8,11 @@ export default function Intro() {
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello! My name is</h2>
           <h1 className="i-name">Swapnaroop</h1>
-          <h2 className="i-Iam">I am a,</h2>
+          <h2 className="i-Iam">& I am a,</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
+              <div className="i-title-item">Software Developer.</div>
               <div className="i-title-item">Graduate Student.</div>
-              <div className="i-title-item">Software developer.</div>
               <div className="i-title-item">Cinephile.</div>
               <div className="i-title-item">Tech Enthusiast.</div>
             </div>
@@ -25,11 +25,13 @@ export default function Intro() {
       </div>
 
       <div className="i-right">
-        <div className="i-bg"></div>
-        <div className="i-bgg">
-        <img src={human} alt="" className="i-image" />
+        
+        <div className="i-myImgBg">
+        <img src={human} className="myImage" />
         </div>
+        
       </div>
+
     </div>
 
 

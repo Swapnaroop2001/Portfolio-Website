@@ -1,6 +1,5 @@
 import React from 'react'
 import '..//Product/Product.css'
-import TheDailyBugle from '..//..//images/TheDailyBugle.png'
 
 export default function Product(props) {
   {}
@@ -12,7 +11,7 @@ export default function Product(props) {
         <div className="p-circle3"></div>
       </div>
 
-      <a href='https://github.com/Swapnaroop2001' target="_blank" rel="noopener noreferrer">
+      <a href={props.GithubRepo} target="_blank" rel="noopener noreferrer">
         <img src={props.image} alt="" className="p-img" />
       </a>
       </div>

@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  padding: 50px;
 }
 
 .a-left {
@@ -36,8 +37,10 @@
 }
 
 .a-img {
-  object-fit: cover;
+    height: inherit;
+    width: inherit;
 }
+
 
 .a-bg{
   flex: 1;

@@ -2,15 +2,15 @@
     width: 40vh;
     height: 35vh;
     margin: 20px 10px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 10px 10px 0px 0px;
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 10px 10px 5px 5px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .p-browser {
     height: 20px;
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(202, 202, 202);
     display: flex;
     align-items: center;
     position: sticky;
@@ -66,10 +66,6 @@
         width: 80vh;
         height: 30vh;
     }
-
-    
-
-
     .p:hover {
         border-color: rgb(104, 14, 222);
         background-color: rgb(255, 255, 255);
