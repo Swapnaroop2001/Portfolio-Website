@@ -220,7 +220,7 @@ textarea{
     }
   
     form {
-      width: 90%;
+      width: 100%;
       flex-direction: column;
       margin-top: 0px;
       display: flex;

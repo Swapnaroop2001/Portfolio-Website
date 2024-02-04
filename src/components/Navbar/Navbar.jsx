@@ -44,7 +44,7 @@ export default function Navbar() {
                     to="Contact"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={40}
                     duration={500}
                 >
                     Contact
