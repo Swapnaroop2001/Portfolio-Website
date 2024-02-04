@@ -7,7 +7,9 @@ export default function About() {
     <section id="About">
     <div className='a'>
       <div className="a-left">
+        <div className="a-bg">
         <img src={about} className="a-img" />
+        </div>
       </div>
 
       <div className="a-right">

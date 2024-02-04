@@ -61,9 +61,8 @@ export default function Contact() {
 
 
         <div className="c-right">
-          <div className="c-desc">
-            <b>My story! </b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit modi saepe quia error blanditiis autem expedita hic quisquam fugit sapiente! Deserunt quos veritatis, at illum perspiciatis molestiae corporis voluptatem cupiditate.
-          </div>
+
+          
 
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type='text' placeholder='Name' name='user_name' value={name} onChange={(e) => setName(e.target.value)} />

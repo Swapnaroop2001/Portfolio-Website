@@ -7,14 +7,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Skills() {
     return (
         <section id="skills">
-        <div className='skills'>
+            <div className='skills'>
+            <div className="s-title">
+                <h3 className='title'>Skills</h3>
+            </div>
 
-            <div className="s-right">
-                <h1>Skills</h1>
-                <div className="s-list2">
+            <div className="s-div2">
+
+                <div className="s-list">
 
                     <div className="s-item">
-                        <h1><FontAwesomeIcon icon={faGlobe} /></h1>
+                        <h1 className='icon'><FontAwesomeIcon icon={faGlobe} /></h1>
                         <h3 className='s-type1'>Web Technologies</h3>
                         <p className='s-type2'>Javascript</p>
                         <p className='s-type2'>Node.js</p>
@@ -26,7 +29,7 @@ export default function Skills() {
                     </div>
 
                     <div className="s-item">
-                        <h1><FontAwesomeIcon icon={faCode} /></h1>
+                        <h1 className='icon'><FontAwesomeIcon icon={faCode} /></h1>
                         <h3 className='s-type1'>Programming Languages</h3>
                         <p className='s-type2'>Java</p>
                         <p className='s-type2'>c++</p>
@@ -34,15 +37,17 @@ export default function Skills() {
                     </div>
 
                     <div className="s-item">
-                        <h1><FontAwesomeIcon icon={faDatabase} /></h1>
-                        <h3 className='s-type'>Database systems</h3>
+                        <h1 className='icon'><FontAwesomeIcon icon={faDatabase} /></h1>
+                        <h3 className='s-type1'>Database systems</h3>
                         <p className='s-type2'>MongoDB</p>
                         <p className='s-type2'>MySQL</p>
                         <p className='s-type2'>Postgre</p>
                     </div>
-                    <div className="s-items">
-                        <h1><FontAwesomeIcon icon={faScrewdriverWrench} /></h1>
-                        <h3 className='s-type'>Development Stack</h3>
+
+
+                    <div className="s-item">
+                        <h1 className='icon'><FontAwesomeIcon icon={faScrewdriverWrench} /></h1>
+                        <h3 className='s-type1'>Development Stack</h3>
                         <p className='s-type2'>JavaFX</p>
                         <p className='s-type2'>Bootstrap</p>
                         <p className='s-type2'>VS code</p>
@@ -51,9 +56,10 @@ export default function Skills() {
                         <p className='s-type2'>IntelliJ</p>
                         <p className='s-type2'>SceneBuilder</p>
                     </div>
+
                 </div>
             </div>
-        </div>
-    </section>
+            </div>
+        </section>
     )
 }

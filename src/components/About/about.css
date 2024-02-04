@@ -1,69 +1,117 @@
-.a{
-    display: flex;
-    align-items: center;
-    height: 100vh;
+.a {
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
-.a-left{
-    flex: 1;
+
+.a-left {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px  50px;
+}
+.a-title{
+  font-size: 50px;
+}
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: rgb(104, 14, 222);
+  ;
+}
+
+.a-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.a-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.a-img {
+  object-fit: cover;
+}
+
+.a-bg{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width:400px;
+}
+
+
+
+
+/*             768px                */
+
+@media screen and (max-width:768px) {
+  .a-left{
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
+  }
+  .a-bg{
+    height: 280px;
+    width: 100px;
+  }
+  .a-img {
     height: 100%;
-    padding-left: 5%;
+    width:100%;
+    
+  }
+
 }
 
-.a-card.bg{
-    position: absolute;
-    top:50px;
-    left:50px;
-    background-color:  rgb(104, 14, 222);;
-}
-.a-right{
-    flex: 1; 
-}
-.a-card{
-    width:60%;
-    height:70vh;
-    border-radius: 30px;
-    position: relative;
-    overflow: hidden;
-}
 
-.a-img{
 
-    height:60%;
-    object-fit: cover;
-    border-radius: 30px;
-}
+
+
+
 
 @media screen and (max-width:480px) {
-    .a{
-      flex-direction: column-reverse;
-      text-align: center;
-      margin-top: 150px;
-    }
+  .a {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 150px;
+  }
 
-    .a-left {
-      width: 100%;
-      padding:0px;
-    }
+  .a-left {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+  }
 
-    .a-card {
-      height: 100%;
-    }
+  .a-card {
+    height: 100%;
+  }
 
-    .a-card.bg, .a-award {
-      display: none;
-    }
+  .a-card.bg,
+  .a-award {
+    display: none;
+  }
 
-   
 
-    .a-desc,.a-sub{
-      margin: 5px;
-    }
 
-    .a-img{
-      height: 75%;
+  .a-desc,
+  .a-sub {
+    margin: 5px;
+  }
+
+  .a-img {
+    height: 75%;
+  }
+
+  .a-bg{
+    height: 100%;
+    width: 100%;
   }
 }
+
