@@ -18,8 +18,8 @@
     display: flex;
     flex: 1;
     display: flex;
-    align-items: center;
     justify-content: center;
+    
 }
 
 .i-right {
@@ -29,7 +29,9 @@
 
 
 .i-left-wrapper {
-    padding: 50px;
+    position: relative;
+    top:140px;
+    left:120px;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -104,34 +106,37 @@
 
 .i-image {
     position: absolute;
-    width: 300px;
+    width: 290px;
     height: 380px;
     left: 145px;
-    top: 135px;
+    top: 155px;
     box-shadow: 0 2px 10px rgb(0, 0, 0);
 
 }
 
 .i-bg {
     background-color: rgb(104, 14, 222);
-    width: 300px;
+    width: 290px;
     height: 380px;
     box-shadow: 0 2px 10px rgb(0, 0, 0);
     position: absolute;
     left: 165px;
-    top: 150px;
+    top: 170px;
 }
 
 
 @media screen and (max-width : 768px) {
     /* Left */
+    .i-left{
+        align-items: center;
+    }
     .i {
         height: 100vh;
         width: 100%;
     }
     .i-left-wrapper {
-        padding: 20px 40px;
-        height: auto;
+        top:150px;
+        padding: 20px 20px 20px 85px;
         position: static;
     }
     .i-intro {

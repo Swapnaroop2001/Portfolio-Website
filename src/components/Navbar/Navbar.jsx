@@ -22,7 +22,7 @@ export default function Navbar() {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={0} // Adjust this offset based on your layout
+                    offset={0} 
                     duration={500}
                 >
                     Skills
