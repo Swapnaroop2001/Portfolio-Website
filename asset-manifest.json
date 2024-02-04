@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.99ced3c7.css",
-    "main.js": "/Portfolio-Website/static/js/main.03277039.js",
+    "main.css": "/Portfolio-Website/static/css/main.e84c2710.css",
+    "main.js": "/Portfolio-Website/static/js/main.f11c6f3b.js",
     "static/js/787.7da95b79.chunk.js": "/Portfolio-Website/static/js/787.7da95b79.chunk.js",
-    "static/media/human.png": "/Portfolio-Website/static/media/human.6bd90ab91bd422b76fed.png",
+    "static/media/TheDailyBugle.png": "/Portfolio-Website/static/media/TheDailyBugle.1df25ee3f714e626868e.png",
+    "static/media/CozyCrest.png": "/Portfolio-Website/static/media/CozyCrest.20570501cd4f2668a2df.png",
+    "static/media/AppleArrow.png": "/Portfolio-Website/static/media/AppleArrow.39f13c0224a57242014c.png",
+    "static/media/human.png": "/Portfolio-Website/static/media/human.a3c46ee531a04ab9addd.png",
+    "static/media/about.png": "/Portfolio-Website/static/media/about.ad9fc1c5de4273394ec6.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.99ced3c7.css.map": "/Portfolio-Website/static/css/main.99ced3c7.css.map",
-    "main.03277039.js.map": "/Portfolio-Website/static/js/main.03277039.js.map",
+    "main.e84c2710.css.map": "/Portfolio-Website/static/css/main.e84c2710.css.map",
+    "main.f11c6f3b.js.map": "/Portfolio-Website/static/js/main.f11c6f3b.js.map",
     "787.7da95b79.chunk.js.map": "/Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99ced3c7.css",
-    "static/js/main.03277039.js"
+    "static/css/main.e84c2710.css",
+    "static/js/main.f11c6f3b.js"
   ]
 }
