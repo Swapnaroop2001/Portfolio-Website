@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.e84c2710.css",
-    "main.js": "/Portfolio-Website/static/js/main.f11c6f3b.js",
-    "static/js/787.7da95b79.chunk.js": "/Portfolio-Website/static/js/787.7da95b79.chunk.js",
+    "main.js": "/Portfolio-Website/static/js/main.a9b6be91.js",
+    "static/js/787.861fdc3f.chunk.js": "/Portfolio-Website/static/js/787.861fdc3f.chunk.js",
     "static/media/TheDailyBugle.png": "/Portfolio-Website/static/media/TheDailyBugle.1df25ee3f714e626868e.png",
     "static/media/CozyCrest.png": "/Portfolio-Website/static/media/CozyCrest.20570501cd4f2668a2df.png",
     "static/media/AppleArrow.png": "/Portfolio-Website/static/media/AppleArrow.39f13c0224a57242014c.png",
@@ -10,11 +10,11 @@
     "static/media/about.png": "/Portfolio-Website/static/media/about.ad9fc1c5de4273394ec6.png",
     "index.html": "/Portfolio-Website/index.html",
     "main.e84c2710.css.map": "/Portfolio-Website/static/css/main.e84c2710.css.map",
-    "main.f11c6f3b.js.map": "/Portfolio-Website/static/js/main.f11c6f3b.js.map",
-    "787.7da95b79.chunk.js.map": "/Portfolio-Website/static/js/787.7da95b79.chunk.js.map"
+    "main.a9b6be91.js.map": "/Portfolio-Website/static/js/main.a9b6be91.js.map",
+    "787.861fdc3f.chunk.js.map": "/Portfolio-Website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e84c2710.css",
-    "static/js/main.f11c6f3b.js"
+    "static/js/main.a9b6be91.js"
   ]
 }
