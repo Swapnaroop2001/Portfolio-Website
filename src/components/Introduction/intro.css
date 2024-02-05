@@ -219,28 +219,6 @@
         left: 0;
     }
 
-    /* .i-bg {
-        background-color: rgb(104, 14, 222);
-        height: 280px;
-        width: 220px;
-        top: 52%;
-        left: 55%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        z-index: 0;
-    } */
-
-    /* .i-bgg {
-        position: absolute;
-        height: 280px;
-        width: 220px;
-        top: 160px;
-        left: 20px;
-        z-index: 1;
-        position: absolute;
-        background-color: rgb(243, 243, 243);
-    } */
-
 }
 
 @media screen and (max-width : 480px) {
@@ -261,7 +239,7 @@
         flex: 1;
         width: 100%;
         text-align: center;
-        justify-content: center;
+        align-items: flex-start;
     }
 
     .i-left-wrapper {
@@ -297,10 +275,19 @@
 
 
     /* Right */
+    .i-right {
+        flex: 1 1;
+        display: flex;
+        position: relative;
+        flex: 1 1;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
 
     .i-myImgBg {
-        top: 0px;
-        left: 145px;
+        top: auto;
+        left: auto;
         height: 270px;
         width: 200px;
     }
