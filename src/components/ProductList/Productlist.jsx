@@ -36,7 +36,8 @@ export default function Productlist() {
           </div>
           <div className="pl-s1-right-side">
           <h2>The Daily Bugle</h2>
-            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+            <p className='pl-section-text-left'>The Daily Bugle offers a modern and engaging platform for users to stay informed about global news and weather updates. Whether you're interested in the latest headlines, technology breakthroughs, or upcoming weather conditions, The Daily Bugle has you covered, combining functionality and aesthetics for an optimal user experience.</p>
+            <p className='pl-section-text-left'>Key features : News Coverage Across the Globe, Diverse News Sections, Real-Time Data, Weather Updates</p>
           </div>
         </div>
 
@@ -44,7 +45,7 @@ export default function Productlist() {
         <div className="pl-section2">
           <div className="pl-s1-right-side">
           <h2 className='pl-h2'>The CozyCrest</h2>
-            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+            <p className='pl-section-text-left'>CozyCrest redefines the hotel booking experience by combining user-friendly registration, dynamic listings, and a comprehensive search functionality. Built on the powerful MERN stack, this full-stack project guarantees a seamless and enjoyable booking process for travelers seeking comfort and convenience. Explore, book, and embark on your journey with CozyCrest - where travel meets tranquility.</p>
           </div>
           <div className="pl-s1-left-side">
             <Product image={CozyCrest} GithubRepo={CozyC}  />
@@ -58,7 +59,7 @@ export default function Productlist() {
           </div>
           <div className="pl-s1-right-side">
             <h2>The Portfolio</h2>
-            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+            <p className='pl-section-text-left'>Dive into the heart of my portfolio website, a React-driven digital showcase that unveils my story through engaging sections. From the captivating 'Intro' to the narrative-rich 'About' and skillful 'Skills' display, every click offers a deeper insight. The visual spectacle of the 'Project Gallery' underscores my creative journey, enhanced by a responsive design ensuring a seamless experience. Connect with me effortlessly through the 'Contact' section, turning this website into a dynamic portal that doesn't just exhibit my work but invites you to be a part of the narrative.</p>
           </div>
         </div>
 
@@ -66,7 +67,7 @@ export default function Productlist() {
         <div className="pl-section2">
           <div className="pl-s1-right-side">
           <h2 className='pl-h2'>Arrow's Apple Quest</h2>
-            <p className='pl-section-text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, tempore numquam. Officiis earum tempore culpa ab expedita facere quo suscipit, quia iusto dolore, natus accusamus! Veritatis iusto nam est minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi assumenda? Cupiditate facilis dolorum voluptates fugiat, magni ducimus aspernatur neque quam similique non minus veritatis! Corporis, quisquam. Laudantium, deleniti dolorem?</p>
+            <p className='pl-section-text-left'>Embark on the dynamic adventure of "Apples Arrow Quest," a Java-built marvel that transforms gaming into a physics odyssey. With JavaFX Scene Builder, this game seamlessly integrates entertainment and education, guiding players through motion equations and projectile principles. Aim for precision as you navigate thrilling challenges, intuitively mastering scientific concepts. More than just a game, "Apples Arrow Quest" is a five-star fusion of excitement and enlightenment, making every play a journey of both thrill and intellectual reward.</p>
           </div>
           <div className="pl-s1-left-side">
             <Product image={AppleArrow} GithubRepo={AppleA}/>

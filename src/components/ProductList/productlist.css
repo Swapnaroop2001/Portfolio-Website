@@ -18,15 +18,12 @@
 }
 
 .pl-desc {
-  margin: 3% 15%;
+  margin: 3% 13%;
   font-size: 20px;
 
 }
 
 .pl-list {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
   width: 90%;
   text-align: justify;
 }

@@ -35,7 +35,8 @@ export default function Contact() {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Contact me !</h1>
+          <h1 className="c-title">Don't hesitate!</h1>
+          <h1 className="c-title">Reach out and connect with me! 👇</h1>
           <div className="c-info-item">
           <div className='c-jodi'>
             <FontAwesomeIcon  className='c-icon' icon={faGithub} />
