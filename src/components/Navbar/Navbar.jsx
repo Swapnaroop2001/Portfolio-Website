@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react'
 import '..//Navbar/navbar.css'
 import { Link } from 'react-scroll'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
     const [isNavOpen, setNavOpen] = useState(false);
@@ -19,6 +21,7 @@ export default function Navbar() {
             <div class="navbar" id="navbar">
                 <div className="navbar-brand" onClick={reloadPage}>Swap.dev</div>
                 <div className={`nav-list ${isNavOpen ? 'show' : ''}`}>
+                <FontAwesomeIcon icon={faTimes} className="navbar-close" onClick={toggleNav}/>
                     <Link
                         className='item'
                         to="About"
@@ -26,6 +29,7 @@ export default function Navbar() {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        onClick={toggleNav}
                     >
                         About
                     </Link>
@@ -37,6 +41,7 @@ export default function Navbar() {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        onClick={toggleNav}
                     >
                         Skills
                     </Link>
@@ -48,6 +53,7 @@ export default function Navbar() {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        onClick={toggleNav}
                     >
                         Project Gallery
                     </Link>
@@ -59,11 +65,12 @@ export default function Navbar() {
                         smooth={true}
                         offset={40}
                         duration={500}
+                        onClick={toggleNav}
                     >
                         Contact
                     </Link>
                 </div>
-                <div className="navbar-toggle" onClick={toggleNav}>&#9776;</div>
+                <FontAwesomeIcon icon={faBars} className="navbar-toggle" onClick={toggleNav}/>
             </div>
         </div>
     )

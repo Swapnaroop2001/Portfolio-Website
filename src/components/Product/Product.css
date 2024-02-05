@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     position: sticky;
-    z-index: 2;
+    z-index: 1;
 }
 
 .p-circle1 {
