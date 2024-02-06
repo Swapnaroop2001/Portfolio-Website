@@ -6,12 +6,12 @@ export default function Intro() {
     <div className='i'>
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello! <img className='hand' src="https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png"></img>My name is</h2>
+          <h2 className="i-intro">Hello<img className='hand' src="https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png"></img>My name is</h2>
           <h1 className="i-name">Swapnaroop</h1>
           <h2 className="i-Iam">& I am a,</h2>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Software Developer.</div>
+              <div className="i-title-item">Full-stack Developer.</div>
               <div className="i-title-item">Graduate Student.</div>
               <div className="i-title-item">Cinephile.</div>
               <div className="i-title-item">Tech Enthusiast.</div>

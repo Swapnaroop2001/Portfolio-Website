@@ -1,29 +1,34 @@
 .a {
   display: flex;
-  align-items: center;
+  align-items: normal;
   height: 100vh;
-  padding: 50px;
+  padding: 50px 100px;
+  background-color: #f9f9f9;
+
 }
 
 .a-left {
+  display: flex;
   flex: 1;
-  align-items: center;
   justify-content: center;
-  position: relative;
-  padding: 20px  50px;
-}
-.a-title{
-  font-size: 50px;
-}
-.a-card.bg {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: rgb(104, 14, 222);
-  ;
 }
 
+.a-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.a-sub {
+  color: rgb(69, 69, 69);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
 .a-right {
+  position: relative;
+  top: 13%;
   flex: 1;
   padding: 20px;
 }
@@ -37,18 +42,15 @@
 }
 
 .a-img {
-    height: inherit;
-    width: inherit;
+  position: relative;
+  height:310px;
+  width: 420px;
+  border-radius: 25px;
+  top:20%;
 }
 
 
-.a-bg{
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  height: 350px;
-  width:400px;
-}
+
 
 
 
@@ -56,19 +58,27 @@
 /*             768px                */
 
 @media screen and (max-width:768px) {
-  .a-left{
+  .a{
     display: flex;
-    align-items: center;
+    flex-direction: column-reverse;
   }
-  .a-bg{
-    height: 280px;
-    width: 100px;
+  .a-right {
+    top: 0;
+    padding: 15px 20px;
+    text-align: center;
   }
-  .a-img {
-    height: 100%;
-    width:100%;
-    
+
+  .a-img{
+    height: 230px;
+    width: 350px;
+    top: 0%;
   }
+
+
+  .a {
+    padding: 20px;
+  }
+
 
 }
 
@@ -82,15 +92,9 @@
   .a {
     flex-direction: column-reverse;
     text-align: center;
-    margin-top: 150px;
+    padding: 20px;
   }
 
-  .a-left {
-    display: flex;
-    width: 100%;
-    padding: 0px;
-    align-items: center;
-  }
 
   .a-card {
     height: 100%;
@@ -101,20 +105,27 @@
     display: none;
   }
 
+  .a-right {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+  }
+
+  .a-title{
+    margin: 15px 0px;
+  }
+
+  .a-title {
+    font-weight: 600;
+    font-size: 50px
+  }
+
 
 
   .a-desc,
   .a-sub {
+    font-size: 13px;
     margin: 5px;
   }
 
-  .a-img {
-    height: 75%;
-  }
-
-  .a-bg{
-    height: 100%;
-    width: 100%;
-  }
 }
-

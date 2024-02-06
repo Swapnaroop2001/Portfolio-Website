@@ -18,7 +18,7 @@ export default function Navbar() {
     
     return (
         <div>
-            <div class="navbar" id="navbar">
+            <div className="navbar" id="navbar">
                 <div className="navbar-brand" onClick={reloadPage}>Swap.dev</div>
                 <div className={`nav-list ${isNavOpen ? 'show' : ''}`}>
                 <FontAwesomeIcon icon={faTimes} className="navbar-close" onClick={toggleNav}/>
