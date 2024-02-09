@@ -36,7 +36,7 @@ export default function Contact() {
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Don't hesitate!</h1>
-          <h1 className="c-title">connect with me! 👇</h1>
+          <h1 className="c-title">connect with me!👇</h1>
           <div className="c-info-item">
           <div className='c-jodi'>
             <FontAwesomeIcon  className='c-icon' icon={faGithub} />
@@ -50,7 +50,7 @@ export default function Contact() {
 
             <div className='c-jodi'>
               <FontAwesomeIcon className='c-icon' icon={faPhone} />
-              <a className='c-a' href='+1 5513288505'>+1 551-551-551</a>
+              <a className='c-a' href='#'>+1 (551)328-8505</a>
             </div>
 
             <div className='c-jodi'>

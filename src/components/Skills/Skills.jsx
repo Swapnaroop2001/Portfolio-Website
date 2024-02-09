@@ -2,6 +2,7 @@ import React from 'react'
 import '..//Skills/skills.css'
 import { faCode, faDatabase, faGlobe, faScrewdriver, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import pc from '..//..//images/pcimgaes.png'
 
 
 export default function Skills() {
@@ -10,6 +11,10 @@ export default function Skills() {
             <div className='skills'>
             <div className="s-title">
                 <h3 className='title'>Skills</h3>
+            </div>
+
+            <div className="s-img">
+                <img className='s-img' src={pc} alt="" />
             </div>
 
             <div className="s-div2">

@@ -19,7 +19,7 @@ export default function Intro() {
           </div>
 
           <div className="i-description">
-            <p className='i-desc'>Explore my journey through ...and innovative projects.</p>
+            <p className='i-desc'>I invite you to explore my digital realm,</p>
           </div>
         </div>
       </div>
