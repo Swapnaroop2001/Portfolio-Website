@@ -36,16 +36,16 @@ Created a dynamic and visually appealing personal portfolio website to showcase 
    - Introduction Section
    ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Intro.png)
 
-   -About Section
+   - About Section
    ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/P-About.png)
 
-   -Skills Section
+   - Skills Section
    ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Skills.png)
 
-   -Project Gallery
+   - Project Gallery
    ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Project%20Gallery.png)
 
-   -Contact Information Section 
+   - Contact Information Section 
    ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Contact.png)
    
    
