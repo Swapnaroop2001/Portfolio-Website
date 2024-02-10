@@ -53,7 +53,7 @@ Created a dynamic and visually appealing personal portfolio website to showcase 
 
    <p float="left">
   <img src="https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Mobile%20version1.png" width="100" />
-  <img src="[image2.jpg](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Mobile%20version2.png)" width="100" />
+  <img src="https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Mobile%20version2.png" width="100" />
   </p>
  
 
