@@ -39,7 +39,7 @@ Created a dynamic and visually appealing personal portfolio website to showcase 
 - JavaScript: for adding interactivity and dynamic features.
 
 ## Deployment
-Hosted the website on platforms like GitHub Pages or Netlify for easy accessibility and sharing.
+Hosted the website on platform like GitHub Pages for easy accessibility and sharing.
 
 ## Conclusion
-This personal portfolio website served as a showcase of skills and accomplishments, providing a professional and engaging platform for potential employers or collaborators to learn more. The use of modern technologies ensured a smooth and visually appealing user experience, reflecting commitment to staying current in the ever-evolving field of web development.
+This personal portfolio website served as a showcase of skills and accomplishments, providing a professional and engaging platform for potential employers or collaborators to learn more. The use of modern technologies ensured a smooth and visually appealing user experience, reflecting the commitment to staying current in the ever-evolving field of web development.
