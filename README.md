@@ -33,8 +33,22 @@ Created a dynamic and visually appealing personal portfolio website to showcase 
    - Included links to social media profiles, allowing visitors to connect on various platforms. Used icons and hover effects for a polished look.
   
 ## Website Images
-   Introduction Section
+   - Introduction Section
    ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Intro.png)
+
+   -About Section
+   ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/P-About.png)
+
+   -Skills Section
+   ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Skills.png)
+
+   -Project Gallery
+   ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Project%20Gallery.png)
+
+   -Contact Information Section 
+   ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Contact.png)
+   
+   
 
 ## Tech Stack
 - React: for building dynamic and interactive user interfaces.
