@@ -49,6 +49,13 @@ Created a dynamic and visually appealing personal portfolio website to showcase 
    ![image](https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Contact.png)
    
    
+## Responsive Mobile design
+
+   <p float="left">
+  <img src="https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Mobile%20version1.png" width="100" />
+  <img src="https://github.com/Swapnaroop2001/Portfolio-Website/blob/main/src/images/Mobile%20version2.png" width="100" />
+  </p>
+ 
 
 ## Tech Stack
 - React: for building dynamic and interactive user interfaces.
