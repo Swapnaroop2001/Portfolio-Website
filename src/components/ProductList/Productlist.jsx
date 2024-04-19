@@ -5,11 +5,13 @@ import TheDailyBugle from '..//..//images/TheDailyBugle.png'
 import AppleArrow from '..//..//images/AppleArrow.png'
 import CozyCrest from '..//..//images/CozyCrest.png'
 import Portfolio from '..//..//images/Portfolio.png'
+import CloudVendor from '..//../images/CloudVendorAPIExpanded.png'
 export default function Productlist() {
   const TheDB = "https://github.com/Swapnaroop2001/TheDailyBugle";
   const AppleA = "https://github.com/Swapnaroop2001/AppleArrow";
   const portF = "https://github.com/Swapnaroop2001/Portfolio-Website";
   const CozyC = "https://github.com/Swapnaroop2001/BookingApp";
+  const CloudV="https://github.com/Swapnaroop2001/CloudVendorProject";
 
   return (
     <section id="Projects">
@@ -66,21 +68,22 @@ export default function Productlist() {
 
           <div className="pl-section2">
             <div className="pl-s1-right-side">
-              <h2 className='pl-h2'>Arrow's Apple Quest</h2>
+              <h2 className='pl-h2'>The Apple Sniper</h2>
               <p className='pl-section-text-left'>It is a Java-built marvel that transforms gaming into a physics odyssey. With JavaFX Scene Builder, this game seamlessly integrates entertainment and education, guiding players through motion equations and projectile principles. Aim for precision as you navigate thrilling challenges, intuitively mastering scientific concepts. More than just a game, "Apples Arrow Quest" is a five-star fusion of excitement and enlightenment.</p>
             </div>
             <div className="pl-s1-left-side">
-              <div className='pLastChild'>
-                <div className="p-browser">
-                  <div className="p-circle1"></div>
-                  <div className="p-circle2"></div>
-                  <div className="p-circle3"></div>
-                </div>
+              <Product image={AppleArrow} GithubRepo={AppleA} />
+            </div>
+          </div>
 
-                <a href={AppleA} target="_blank" rel="noopener noreferrer">
-                  <img src={AppleArrow} alt="" className="p-img" />
-                </a>
-              </div>
+          <div className="pl-section1">
+            <div className="pl-s1-left-side">
+              <Product image={CloudVendor} GithubRepo={CloudV} />
+            </div>
+            <div className="pl-s1-right-side">
+              <h2>The Cloud Vendor CRUD API</h2>
+              <p className='pl-section-text-left'>The Cloud Vendor API is a RESTful API designed to manage cloud vendor information with Create, Read, Update, and Delete (CRUD) functionalities & provides endpoints for interacting with cloud vendor data using HTTP methods. This project emphasizes best practices in API development, including unit testing, exception handling, custom JSON response handling, and comprehensive documentation.</p>
+              <p className='pl-section-text-left'>Key features : CRUD Operations, Unit Testing, Database Integration, Layered Architecture, Exception Handling, Custom JSON Response Handling.</p>
             </div>
           </div>
 
