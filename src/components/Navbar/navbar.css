@@ -116,7 +116,8 @@
 
     .nav-list {
         padding-top: 0px;
-        align-items: start;
+        
+        align-items: eslint-disable-next-line start;
         height: 100vh;
         width: 60%;
         z-index: 2;
