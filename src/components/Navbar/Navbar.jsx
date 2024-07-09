@@ -33,6 +33,17 @@ export default function Navbar() {
                     >
                         About
                     </Link>
+                    <Link
+                        className='item'
+                        to="Experiance"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                        onClick={toggleNav}
+                    >
+                        Experiance
+                    </Link>
 
                     <Link
                         className='item'

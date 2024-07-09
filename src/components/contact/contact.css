@@ -7,7 +7,7 @@
 .c-bg {
     width: 20px;
     height: 100%;
-    background-color: blueviolet;
+    background-color: #1e8686;
     position: absolute;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .c-jodi:hover {
-    color: blueviolet;
+    color:#1e8686;
 }
 
 .c-a {
@@ -87,7 +87,7 @@ textarea {
 .c-submitBtn {
     border: none;
     padding: 15px;
-    background-color: rgb(104, 14, 222);
+    background-color: #1e8686;
     ;
     color: rgb(255, 255, 255);
     font-weight: 500;

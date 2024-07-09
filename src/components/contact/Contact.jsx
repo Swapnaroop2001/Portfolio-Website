@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../contact/contact.css';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from 'emailjs-com';
+import '../contact/contact.css';
 
 export default function Contact() {
 
@@ -44,8 +44,19 @@ export default function Contact() {
     e.preventDefault();
 
     // Validation logic
-    if (!name || !email || !message) {
-      notifyError("Please fill out all required fields.");
+    if (name.length < 3) {
+      notifyError("Name must be at least 3 characters long.");
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      notifyError("Please enter a valid email address.");
+      return;
+    }
+
+    if (message.length < 3) {
+      notifyError("Message must be at least 3 characters long.");
       return;
     }
 

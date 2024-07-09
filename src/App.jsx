@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Experiance from "./components/Experiance/Experiance";
 import Intro from "./components/Introduction/intro";
 import Navbar from "./components/Navbar/Navbar";
 import Productlist from "./components/ProductList/Productlist";
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <About/>
+      <Experiance/>
       <Skills/>
       <Productlist/>
       <Contact/>
