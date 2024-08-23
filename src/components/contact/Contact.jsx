@@ -44,18 +44,19 @@ export default function Contact() {
     e.preventDefault();
 
     // Validation logic
-    if (name.length < 3) {
+    if (name.trim().length < 3) {
       notifyError("Name must be at least 3 characters long.");
       return;
     }
 
+    const emailTrimmed = email.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
+    if (!emailRegex.test(emailTrimmed)) {
       notifyError("Please enter a valid email address.");
       return;
     }
 
-    if (message.length < 3) {
+    if (message.trim().length < 3) {
       notifyError("Message must be at least 3 characters long.");
       return;
     }
@@ -107,10 +108,35 @@ export default function Contact() {
 
           <div className="c-right">
             <form ref={formRef} onSubmit={handleSubmit}>
-              <input type='text' placeholder='Name*' name='user_name' value={name} onChange={(e) => setName(e.target.value)} />
-              <input type='text' placeholder='Subject' name='user_subject' value={subject} onChange={(e) => setSubject(e.target.value)} />
-              <input type='text' placeholder='Email*' name='user_email' value={email} onChange={(e) => setEmail(e.target.value)} />
-              <textarea className='c-txtarea' rows='5' placeholder='Message*' name='message' value={message} onChange={(e) => setMessage(e.target.value)} />
+              <input 
+                type='text' 
+                placeholder='Name*' 
+                name='user_name' 
+                value={name} 
+                onChange={(e) => setName(e.target.value.trim())} 
+              />
+              <input 
+                type='text' 
+                placeholder='Subject' 
+                name='user_subject' 
+                value={subject} 
+                onChange={(e) => setSubject(e.target.value.trim())} 
+              />
+              <input 
+                type='email' 
+                placeholder='Email*' 
+                name='user_email' 
+                value={email} 
+                onChange={(e) => setEmail(e.target.value.trim())} 
+              />
+              <textarea 
+                className='c-txtarea' 
+                rows='5' 
+                placeholder='Message*' 
+                name='message' 
+                value={message} 
+                onChange={(e) => setMessage(e.target.value.trim())} 
+              />
               <button className='c-submitBtn' type='submit'>Submit</button>
             </form>
           </div>
