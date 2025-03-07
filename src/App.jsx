@@ -1,5 +1,5 @@
 import About from "./components/About/About";
-import Experiance from "./components/Experiance/Experiance";
+import Experience from "./components/Experience/Experience";
 import Intro from "./components/Introduction/intro";
 import Navbar from "./components/Navbar/Navbar";
 import Productlist from "./components/ProductList/Productlist";
@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <About/>
-      {/* <Experiance/> */}
+      <Experience/>
       <Skills/>
       <Productlist/>
       <Contact/>

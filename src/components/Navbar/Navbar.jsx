@@ -35,14 +35,14 @@ export default function Navbar() {
                     </Link>
                     <Link
                         className='item'
-                        to="Experiance"
+                        to="Experience"
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={500}
                         onClick={toggleNav}
                     >
-                        Experiance
+                        Experience
                     </Link>
 
                     <Link

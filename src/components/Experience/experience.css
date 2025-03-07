@@ -1,0 +1,101 @@
+/* General Styling */
+.experiance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+}
+
+/* Header Section */
+.section1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Experience Cards Section */
+.section2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Cards Container */
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+}
+
+/* Standard Card Design */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Header: Position & Time Period */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff; /* Text color to contrast with the background */
+  background-color: #1e8686; /* Background color */
+  padding: 5px 10px; /* Add some padding to the title for better spacing */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.time-period {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Company Name */
+.company {
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Details (Bullet Points) */
+.details {
+  padding-left: 20px;
+}
+
+.details li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
