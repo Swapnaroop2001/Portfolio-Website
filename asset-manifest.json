@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.2ccb03ad.css",
-    "main.js": "/Portfolio-Website/static/js/main.813e8c3e.js",
+    "main.js": "/Portfolio-Website/static/js/main.bbc5805f.js",
     "static/media/TheDailyBugle.png": "/Portfolio-Website/static/media/TheDailyBugle.1df25ee3f714e626868e.png",
     "static/media/Portfolio.png": "/Portfolio-Website/static/media/Portfolio.9fcb78434ccecd8077ea.png",
     "static/media/CozyCrest.png": "/Portfolio-Website/static/media/CozyCrest.8a64fadcf9e98de9ceb8.png",
     "static/media/AppleArrow.png": "/Portfolio-Website/static/media/AppleArrow.83b12195f85dd2e0e195.png",
     "static/media/CloudVendorAPIExpanded.png": "/Portfolio-Website/static/media/CloudVendorAPIExpanded.ce5156e74639381018c2.png",
     "static/media/pcimgaes.png": "/Portfolio-Website/static/media/pcimgaes.cf367792624523fd0e05.png",
-    "static/media/human.png": "/Portfolio-Website/static/media/human.a3c46ee531a04ab9addd.png",
+    "static/media/Headshot.png": "/Portfolio-Website/static/media/Headshot.cd48eb6b4cb88480afc6.png",
     "static/media/about.png": "/Portfolio-Website/static/media/about.2809898ab8252842d41d.png",
     "index.html": "/Portfolio-Website/index.html",
     "main.2ccb03ad.css.map": "/Portfolio-Website/static/css/main.2ccb03ad.css.map",
-    "main.813e8c3e.js.map": "/Portfolio-Website/static/js/main.813e8c3e.js.map"
+    "main.bbc5805f.js.map": "/Portfolio-Website/static/js/main.bbc5805f.js.map"
   },
   "entrypoints": [
     "static/css/main.2ccb03ad.css",
-    "static/js/main.813e8c3e.js"
+    "static/js/main.bbc5805f.js"
   ]
 }
