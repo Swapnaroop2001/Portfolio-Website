@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import human from '../../images/human.png'
+import headshot from '../../images/Headshot.png'
 export default function Intro() {
   return (
     <div className='i'>
@@ -27,7 +27,7 @@ export default function Intro() {
       <div className="i-right">
         
         <div className="i-myImgBg">
-        <img src={human} className="myImage" />
+        <img src={headshot} className="myImage" />
         </div>
         
       </div>
