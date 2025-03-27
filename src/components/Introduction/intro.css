@@ -46,30 +46,31 @@
     height: 360px;
     width: 280px;
     border: 5px solid rgb(0, 0, 0);
+    
     animation: changeRadius 6s infinite;
 }
 
 @keyframes changeRadius {
     0% {
-        border-start-start-radius: 300px 500px;
-        border-start-end-radius: 130px 300px;
-        border-end-start-radius: 270px 200px;
-        border-end-end-radius: 300px 200px;
+        border-start-start-radius: 200px 300px;
+        border-start-end-radius: 400px 300px;
+        border-end-start-radius: 200px 300px;
+        border-end-end-radius: 300px 350px;
 
     }
 
     50% {
-        border-start-start-radius: 120px 200px;
-        border-start-end-radius: 300px 160px;
-        border-end-start-radius: 90px 200px;
-        border-end-end-radius: 400px 300px;
+        border-start-start-radius: 400px 300px;
+        border-start-end-radius: 200px 300px;
+        border-end-start-radius: 300px 350px;
+        border-end-end-radius: 200px 300px;
     }
 
     100% {
-        border-start-start-radius: 300px 500px;
-        border-start-end-radius: 130px 300px;
-        border-end-start-radius: 270px 200px;
-        border-end-end-radius: 300px 200px;
+        border-start-start-radius: 200px 300px;
+        border-start-end-radius: 400px 300px;
+        border-end-start-radius: 200px 300px;
+        border-end-end-radius: 300px 350px;
 
     }
 }

@@ -1,19 +1,17 @@
-import React from 'react'
-import '..//Product/Product.css'
+import React from 'react';
+import '../Product/Product.css';
 
-export default function Product(props) {
-  {}
+export default function Product({ image, GithubRepo, title, description }) {
   return (
-    <div className='p'>
-      <div className="p-browser">
-        <div className="p-circle1"></div>
-        <div className="p-circle2"></div>
-        <div className="p-circle3"></div>
+    <div className='p-card'>
+      <div className='p-card-img-container'>
+        <img src={image} alt={title} className='p-card-img' />
       </div>
-
-      <a href={props.GithubRepo} target="_blank" rel="noopener noreferrer">
-        <img src={props.image} alt="" className="p-img" />
-      </a>
+      <div className='p-card-content'>
+        <h2 className='p-card-title'>{title}</h2>
+        <p className='p-card-desc'>{description}</p>
+        <a href={GithubRepo} target='_blank' rel='noopener noreferrer' className='p-card-button'>View Repository</a>
       </div>
-  )
+    </div>
+  );
 }

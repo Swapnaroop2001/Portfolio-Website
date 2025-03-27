@@ -15,7 +15,7 @@ export default function Experiance() {
             <div className="card">
               <div className="card-header">
                 <h4 className="position">Software Developer Intern</h4>
-                <h4 className="time-period">05/24 - 08/24</h4>
+                <p className="time-period">05/24 - 08/24</p>
               </div>
               <h5 className="company">Different Systems</h5>
               <ul className="details">
@@ -31,7 +31,7 @@ export default function Experiance() {
             <div className="card">
               <div className="card-header">
                 <h4 className="position">Full Stack Developer Intern</h4>
-                <h4 className="time-period">06/22 - 11/22</h4>
+                <p className="time-period">06/22 - 11/22</p>
               </div>
               <h5 className="company">Business Web Solutions</h5>
               <ul className="details">
@@ -43,10 +43,10 @@ export default function Experiance() {
             </div>
 
             {/* Student Admin Support - De-emphasized */}
-            <div className="card admin-role">
+            <div className="card">
               <div className="card-header">
                 <h4 className="position">Student Admin Support</h4>
-                <h4 className="time-period">08/24 - Present</h4>
+                <p className="time-period">08/24 - Present</p>
               </div>
               <h5 className="company">Stevens Institute of Technology</h5>
               <ul className="details">

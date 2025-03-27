@@ -1,101 +1,102 @@
-/* General Styling */
 .experiance {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
+  padding: 30px 15px;
   background-color: #f4f4f4;
 }
 
-/* Header Section */
 .section1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   color: #222;
 }
 
-/* Experience Cards Section */
 .section2 {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-/* Cards Container */
 .experience-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 800px;
+  gap: 30px;
+  max-width: 900px;
 }
 
-/* Standard Card Design */
 .card {
   background: #ffffff;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2px 15px;
+  border: 2px solid rgb(35, 0, 51);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  max-width: 90%;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
-/* Card Header: Position & Time Period */
 .card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .position {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 600;
-  color: #ffffff; /* Text color to contrast with the background */
-  background-color: #1e8686; /* Background color */
-  padding: 5px 10px; /* Add some padding to the title for better spacing */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  color: white;
+  background-color: #1e8686;
+  padding: 6px 10px;
+  border-radius: 5px;
 }
 
 .time-period {
-  font-size: 16px;
-  font-weight: bold;
-  color: #444;
+  font-size: 1rem;
 }
 
-/* Company Name */
 .company {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  color: #555;
-  margin-bottom: 10px;
+  color: #000000;
+  margin: 8px;
+  font-size: 1.5rem;
 }
 
-/* Details (Bullet Points) */
 .details {
-  padding-left: 20px;
+  padding-left: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .details li {
-  font-size: 16px;
+  font-size: 14px;
   color: #555;
-  margin-bottom: 5px;
-  line-height: 1.5;
+  margin-bottom: 4px;
+  line-height: 1.4;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .experience-container {
     max-width: 100%;
-    padding: 0 15px;
+    padding: 0 10px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .position {
+    font-size: 1rem;
   }
 }
