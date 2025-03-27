@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.2cd4edc3.css",
-    "main.js": "/Portfolio-Website/static/js/main.274e41db.js",
-    "static/media/TheDailyBugle.png": "/Portfolio-Website/static/media/TheDailyBugle.1df25ee3f714e626868e.png",
-    "static/media/Portfolio.png": "/Portfolio-Website/static/media/Portfolio.9fcb78434ccecd8077ea.png",
-    "static/media/CozyCrest.png": "/Portfolio-Website/static/media/CozyCrest.8a64fadcf9e98de9ceb8.png",
-    "static/media/AppleArrow.png": "/Portfolio-Website/static/media/AppleArrow.83b12195f85dd2e0e195.png",
+    "main.css": "/Portfolio-Website/static/css/main.6b2cecf5.css",
+    "main.js": "/Portfolio-Website/static/js/main.b1c78b41.js",
+    "static/media/TheDailyBugle.png": "/Portfolio-Website/static/media/TheDailyBugle.3e3aa8429dd63363ea69.png",
+    "static/media/CozyCrest.png": "/Portfolio-Website/static/media/CozyCrest.36c14b458f75f0a6c1c5.png",
+    "static/media/Intro.png": "/Portfolio-Website/static/media/Intro.8b0e38c25aed30687f56.png",
+    "static/media/AppleArrow.png": "/Portfolio-Website/static/media/AppleArrow.77d5d3545fac869d99ca.png",
+    "static/media/StockVision.png": "/Portfolio-Website/static/media/StockVision.05678c026b2cb83d1833.png",
     "static/media/CloudVendorAPIExpanded.png": "/Portfolio-Website/static/media/CloudVendorAPIExpanded.ce5156e74639381018c2.png",
     "static/media/pcimgaes.png": "/Portfolio-Website/static/media/pcimgaes.cf367792624523fd0e05.png",
-    "static/media/Headshot.png": "/Portfolio-Website/static/media/Headshot.89d20952fce72d955eb1.png",
+    "static/media/human.png": "/Portfolio-Website/static/media/human.a3c46ee531a04ab9addd.png",
     "static/media/about.png": "/Portfolio-Website/static/media/about.2809898ab8252842d41d.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.2cd4edc3.css.map": "/Portfolio-Website/static/css/main.2cd4edc3.css.map",
-    "main.274e41db.js.map": "/Portfolio-Website/static/js/main.274e41db.js.map"
+    "main.6b2cecf5.css.map": "/Portfolio-Website/static/css/main.6b2cecf5.css.map",
+    "main.b1c78b41.js.map": "/Portfolio-Website/static/js/main.b1c78b41.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cd4edc3.css",
-    "static/js/main.274e41db.js"
+    "static/css/main.6b2cecf5.css",
+    "static/js/main.b1c78b41.js"
   ]
 }
