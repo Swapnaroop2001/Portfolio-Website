@@ -17,7 +17,7 @@ export default function Experiance() {
                 <h4 className="position">Software Developer Intern</h4>
                 <p className="time-period">05/24 - 08/24</p>
               </div>
-              <h5 className="company">Different Systems</h5>
+              <h5 className="company">Differnt Systems</h5>
               <ul className="details">
                 <li>Optimized API performance for a signage website, reducing load times by 25%.</li>
                 <li>Refined SCSS for improved mobile responsiveness across multiple components.</li>
