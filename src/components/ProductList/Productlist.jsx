@@ -7,6 +7,7 @@ import CozyCrest from '../../images/CozyCrest.png';
 import Portfolio from '../../images/Intro.png';
 import CloudVendor from '../../images/CloudVendorAPIExpanded.png';
 import StockVision from '../../images/StockVision.png';
+import NetflixClone from '../../images/nflx-clone.png'; 
 
 export default function ProductList() {
   const products = [
@@ -51,6 +52,13 @@ export default function ProductList() {
       title: "Stock Vision",
       description: "A real-time stock market insights platform using TickerTick API for latest news and trends. Developed using React and Node.js with API integration.",
       techStack: ['React', 'Node.js', 'API Integration']
+    },
+    {
+      image: NetflixClone,
+      GithubRepo: "https://github.com/Swapnaroop2001/netflix-clone",
+      title: "Netflix Clone",
+      description: "A full-stack Netflix-inspired web application using ShadCN, TypeScript, and Next.js. Implements secure authentication, trailer previews, and responsive UI. Built for learning full-stack architecture and design patterns.",
+      techStack: ['React.js', 'TypeScript', 'ShadCN', 'Tailwind', 'MongoDB', 'JWT']
     }
   ];
 
