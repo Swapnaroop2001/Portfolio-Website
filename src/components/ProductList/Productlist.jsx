@@ -57,7 +57,7 @@ export default function ProductList() {
       image: NetflixClone,
       GithubRepo: "https://github.com/Swapnaroop2001/netflix-clone",
       title: "Netflix Clone",
-      description: "A full-stack Netflix-inspired web application using ShadCN, TypeScript, and Next.js. Implements secure authentication, trailer previews, and responsive UI. Built for learning full-stack architecture and design patterns.",
+      description: "A full-stack Netflix-inspired web application using ShadCN, TypeScript, and React.js. Implements secure authentication, trailer previews, and responsive UI. Built for learning full-stack architecture and design patterns.",
       techStack: ['React.js', 'TypeScript', 'ShadCN', 'Tailwind', 'MongoDB', 'JWT']
     }
   ];
